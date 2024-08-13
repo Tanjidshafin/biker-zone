@@ -20,7 +20,7 @@
 
     <main>
         <section style="background-image: url(images/slider/slider8.jpg);"
-            class="lg:px-36 bg-no-repeat bg-center bg-cover rounded-lg lg:rounded-none bg-gradient-to-r from-[rgb(24,24,24)] via-[rgba(24,24,24,0.82)] to-[rgba(24,24,24,0)] ">
+            class="lg:px-36 bg-no-repeat bg-center bg-cover lg:rounded-none bg-gradient-to-r from-[rgb(24,24,24)] via-[rgba(24,24,24,0.82)] to-[rgba(24,24,24,0)] ">
             <div class="lg:pt-10">
                 <div class="navbar bg-transparent text-white">
                     <div class="navbar-start">
@@ -83,36 +83,92 @@
         </section>
         <div class="lg:mx-36 mx-6">
             <section class="mt-10 lg:mt-40">
-                <h1 class="text-2xl lg:text-4xl lg:font-bold font-semibold text-center">Featured Bikes In This Year</h1>
-                <p class="text-center text-red-500 hover:underline hover:decoration-1 cursor-pointer my-4">Best bike collection</p>
-                <div class="flex flex-col lg:flex-row gap-12">
+                <h1 class="text-xl lg:text-4xl lg:font-bold font-semibold text-center">Featured Bikes In This Year</h1>
+                <p class="text-center text-red-500 hover:underline hover:decoration-1 cursor-pointer my-4">Best bike
+                    collection</p>
+                <p class="text-xs text-center text-gray-500 mb-4 lg:hidden"> "Touch on the images for more information."
+                </p>
+                <div class="flex flex-col items-center lg:flex-row gap-12">
                     <div class="group">
-                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike1.png" alt="">
+                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike1.png"
+                            alt="">
                         <div class="relative">
-                            <div class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
-                                <p class="text-white font-semibold">NGR 900</p>
-                                <h1 class="text-white font-bold hover:text-red-500 text-3xl my-3">10,000$</h1>
+                            <div
+                                class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
+                                <p class="text-red-500 font-semibold">NGR 900</p>
+                                <h1 class="text-white hover:transition-all font-bold hover:text-red-500 text-3xl my-3">
+                                    10,000$</h1>
                                 <button class="btn">Learn More</button>
                             </div>
                         </div>
                     </div>
                     <div class="group">
-                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike2.png" alt="">
+                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike2.png"
+                            alt="">
                         <div class="relative">
-                            <div class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
-                                <p class="text-white font-semibold">NGR 900</p>
-                                <h1 class="text-white font-bold hover:text-red-500 text-3xl my-3">10,000$</h1>
+                            <div
+                                class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
+                                <p class="text-red-500 font-semibold">NGR 900</p>
+                                <h1 class="text-white hover:transition-all font-bold hover:text-red-500 text-3xl my-3">
+                                    10,000$</h1>
                                 <button class="btn">Learn More</button>
                             </div>
                         </div>
                     </div>
                     <div class="group">
-                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike3.png" alt="">
+                        <img class="group-hover:brightness-50 hover:transition-all" src="images/slider/bike3.png"
+                            alt="">
                         <div class="relative">
-                            <div class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
-                                <p class="text-white font-semibold">NGR 900</p>
-                                <h1 class="text-white font-bold hover:text-red-500 text-3xl my-3">10,000$</h1>
+                            <div
+                                class="absolute text-center hidden p-4 rounded-sm backdrop-blur-sm hover:transition-all group-hover:flex flex-col bottom-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 items-center justify-center shadow-xl ">
+                                <p class="text-red-500 font-semibold">NGR 900</p>
+                                <h1 class="text-white hover:transition-all font-bold hover:text-red-500 text-3xl my-3">
+                                    10,000$</h1>
                                 <button class="btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="mt-6">
+                <h1 class="text-center text-xl lg:text-4xl lg:font-bold font-semibold mb-10">Latest News</h1>
+                <div class="flex flex-col gap-10 lg:flex-row">
+                    <div class="card bg-base-100 w-auto shadow-xl lg:hover:scale-105 hover:transition-all">
+                        <figure>
+                            <img src="images/others/latest1.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Ducati XDIAVEL S-73</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn bg-red-500 text-white">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 w-auto shadow-xl lg:hover:scale-105 hover:transition-all">
+                        <figure>
+                            <img src="images/others/latest2.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">Motorcycles & Scooters</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-start">
+                                <button class="btn bg-red-500 text-white">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card bg-base-100 w-auto shadow-xl lg:hover:scale-105 hover:transition-all">
+                        <figure>
+                            <img src="images/others/latest3.png" alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title">2021 Honda CBR500R</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed id nisi lectus at.</p>
+                            <div class="card-actions justify-Start">
+                                <button class="btn bg-red-500 text-white">Buy Now</button>
                             </div>
                         </div>
                     </div>
